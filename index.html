@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Louro Support - Tecnologia & Design</title>
     <style>
-        /* Estilo para garantir que a imagem ocupe a tela corretamente */
         body { margin: 0; padding: 0; background-color: #05192d; display: flex; justify-content: center; overflow-x: hidden; }
         .container { position: relative; width: 100%; max-width: 500px; }
         img { width: 100%; height: auto; display: block; }
         
-        /* Áreas clicáveis invisíveis sobre os botões da sua arte */
-        .btn { position: absolute; cursor: pointer; background: rgba(255,255,255,0); border-radius: 20px; }
+        /* Áreas de clique invisíveis */
+        .btn { position: absolute; cursor: pointer; background: rgba(255,255,255,0); border-radius: 15px; }
         
-        /* Posições aproximadas para os seus botões - Calibradas pela sua arte */
-        .btn-manutencao { top: 54.5%; left: 10%; width: 80%; height: 6.5%; }
-        .btn-design     { top: 62.5%; left: 10%; width: 80%; height: 6.5%; }
-        .btn-cartao     { top: 70.5%; left: 10%; width: 80%; height: 6.5%; }
-        .btn-contato    { top: 78.5%; left: 10%; width: 80%; height: 6.5%; }
-        .btn-local      { top: 86.5%; left: 10%; width: 80%; height: 6.5%; }
+        /* Ajuste de posição para cada botão baseado na imagem 04 */
+        .btn-manutencao { top: 54%; left: 8%; width: 84%; height: 7%; }
+        .btn-design     { top: 62%; left: 8%; width: 84%; height: 7%; }
+        .btn-cartao     { top: 70%; left: 8%; width: 84%; height: 7%; }
+        .btn-contato    { top: 78%; left: 8%; width: 84%; height: 7%; }
+        .btn-local      { top: 86%; left: 8%; width: 84%; height: 7%; }
     </style>
 </head>
 <body>
@@ -26,12 +25,12 @@
 <div class="container">
     <img src="cartao.jpg" alt="Louro Support Cartão Virtual">
 
-    <!-- Substitua os '#' pelos seus links reais abaixo -->
-    <a href="https://wa.me/SEU_NUMERO" class="btn btn-manutencao" title="Manutenção"></a>
-    <a href="https://wa.me/SEU_NUMERO" class="btn btn-design" title="Design"></a>
-    <a href="https://wa.me/SEU_NUMERO" class="btn btn-cartao" title="Fazer Cartão"></a>
-    <a href="#" class="btn btn-contato" title="Salvar Contato"></a>
-    <a href="https://goo.gl/maps/SUA_LOCALIZACAO" class="btn btn-local" title="Localização"></a>
+    <!-- Links Oficiais -->
+    <a href="https://wa.me/5579998004645?text=Olá+Louro,+preciso+de+manutenção+em+software." class="btn btn-manutencao" target="_blank"></a>
+    <a href="https://wa.me/5579998004645?text=Olá+Louro,+quero+fazer+um+orçamento+de+design." class="btn btn-design" target="_blank"></a>
+    <a href="https://api.whatsapp.com/send?phone=5579998004645&text=Louro%2C%20quero%20um%20cartão%20virtual%20como%20o%20seu." class="btn btn-cartao" target="_blank"></a>
+    <a href="https://drive.google.com/file/d/1wCP_cHKIX1FMxku3BatOa1zQc5joDL9C/view?usp=drive_link" class="btn btn-contato" target="_blank"></a>
+    <a href="https://maps.app.goo.gl/SxPPzRAn3vZKskS17" class="btn btn-local" target="_blank"></a>
 </div>
 
 </body>
